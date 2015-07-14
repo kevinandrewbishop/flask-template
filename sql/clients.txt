@@ -1,0 +1,10 @@
+prettyboy4u,Paul,McCartney,295-831-4573,pbkdf2:sha1:1000$pjazrrwv$49d0426c401b9ca71f5ff1ec79711c44bc7ee0c7
+drummer2,Ringo,Starr,459-150-4220,pbkdf2:sha1:1000$p6XH5JV0$cd45797da291f4c2fa206842388939de551c77d7
+imagine1,John,Lennon,172-504-3672,pbkdf2:sha1:1000$L4yE2ZG0$f0430ce961c170540b92c278d03e7dbffad945dd
+atLeastImNotRingo,George,Harrison,095-496-0114,pbkdf2:sha1:1000$dP2zwWEs$c8e7d6681583676ab2abf1047e865a9f3cc337c2
+lsd4me,Sid,Barret,236-675-4710,pbkdf2:sha1:1000$onf1iSls$ab92b2f06d39e440c10c924da1a247901794866f
+luv2wine,Roger,Waters,119-908-0213,pbkdf2:sha1:1000$bIfJ4rCL$010c97f111c689fa13502782dc64db5af54d8ed7
+comfortablyNumb,David,Gilmour,646-338-3774,pbkdf2:sha1:1000$VgF0w9xb$b6bae0ee00af04ee9c22298a3a2fd3d9dac6e502
+drummerboy,Nick,Mason,262-222-7645,pbkdf2:sha1:1000$thhY97i2$c13d5ff44f7967ae82e912e475813275fb9d5ea2
+ticklishIvories,Rick,Wright,452-482-9961,pbkdf2:sha1:1000$Ynt3EBMR$d853e9e872d969b050417d4e4a043851717d524a
+drummer1,Pete,Best,452-832-5474,pbkdf2:sha1:1000$BwwsAtNP$41fc477bafe560e6d18f55696a8f054c4e69f7a6

@@ -1,0 +1,30 @@
+CREATE DATABASE IF NOT EXISTS website;
+USE website;
+
+DROP TABLE IF EXISTS clients;
+CREATE TABLE IF NOT EXISTS clients(
+username VARCHAR(30) NOT NULL PRIMARY KEY,
+first_name VARCHAR(30) NOT NULL,
+last_name VARCHAR(30) NOT NULL,
+phone_number VARCHAR(12) NOT NULL,
+password_ VARCHAR(80) NOT NULL
+);
+
+DROP TABLE IF EXISTS trainers;
+CREATE TABLE IF NOT EXISTS trainers(
+username VARCHAR(30) NOT NULL PRIMARY KEY,
+first_name VARCHAR(30) NOT NULL,
+last_name VARCHAR(30) NOT NULL,
+phone_number VARCHAR(12) NOT NULL,
+password_ VARCHAR(80) NOT NULL
+);
+
+DROP TABLE IF EXISTS transactions;
+CREATE TABLE IF NOT EXISTS transactions(
+transaction_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+client_username VARCHAR(30) NOT NULL,
+trainer_username VARCHAR(30) NOT NULL,
+transaction_date DATE NOT NULL,
+dollar_amount DECIMAL NOT NULL
+);
+

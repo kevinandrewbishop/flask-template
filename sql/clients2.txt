@@ -1,0 +1,12 @@
+username	first_name	last_name	phone_number	password_
+atLeastImNotRingo	George	Harrison	095-496-0114	pbkdf2:sha1:1000$ZDAksGVj$9037d6fac35442ca495e15540a45a5eaf6bd89bb
+comfortablyNumb	David	Gilmour	646-338-3774	pbkdf2:sha1:1000$Hb0Dbv80$a2b8e3b4a81dcbc3ec5861ee8772db840be30c99
+drummer1	Pete	Best	452-832-5474	pbkdf2:sha1:1000$8Kw6HHC3$d63b76fe284b28f958deba73547d100d9cb75f42
+drummer2	Ringo	Starr	459-150-4220	pbkdf2:sha1:1000$P3lqryA4$7720ad035c33b529f9af420e3c75447411e0481f
+drummerboy	Nick	Mason	262-222-7645	pbkdf2:sha1:1000$LOtCCa8d$6d19aab357603c37eac02efb2efce24f5f9a738d
+imagine1	John	Lennon	172-504-3672	pbkdf2:sha1:1000$xoF8YjoV$50a0218c236396561dfcd3cd2e16c45ed98a9c3c
+KBishop	Kevin	Bishop	513-550-3484	pbkdf2:sha1:1000$V621xTrB$4d17d7b9eed54a1b46b2b793227fe75248104301
+lsd4me	Sid	Barret	236-675-4710	pbkdf2:sha1:1000$rF4mjUY7$44fe543c913a5c18a6cebfd2740f008f845e3672
+luv2wine	Roger	Waters	119-908-0213	pbkdf2:sha1:1000$J4eqwUdQ$6cd9c2c6410addb13cc67a492aed3e921ff9cb01
+prettyboy4u	Paul	McCartney	295-831-4573	pbkdf2:sha1:1000$1fg5UnYA$4c31302ec301425c78bb011c1b114d47a45e220c
+ticklishIvories	Rick	Wright	452-482-9961	pbkdf2:sha1:1000$wlnzqSRS$6faec859bf614edad10052cb8333765ad75a42a9

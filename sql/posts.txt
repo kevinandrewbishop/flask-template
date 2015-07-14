@@ -1,0 +1,3 @@
+post_id	username	title	body
+1	prettyboy4u	"First Post!"	"Wow! Sure feels good to write the first post!"
+2	prettyboy4u	"Second Post!"	"I can't believe we're on post number 2 already! Boy I'm getting old."

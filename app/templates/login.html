@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %} Login Here {% endblock %}
+
+{% block page_content %}
+
+<div class="page-header">
+  <h1>Login</h1>
+</div>
+<div class = "row">
+  <div class = "col-sm-4">
+    {{ wtf.quick_form(form) }}
+    {% if error %}
+    <p>ERROR: {{error}}</p>
+    {% endif %}
+    <br/>
+    <a href = '/register'>Don't have an account? Register here.</a>
+  </div>
+  <div class = "col-sm-8">
+    <h3>Off to the right?</h3>
+    <p>Sure! On a desktop or tablet this paragraph will be off to the right.</p>
+    <p>But on a mobile phone it's going to be stacked under the login form!</p>
+  </div>
+</div>
+
+
+
+
+{% endblock %}

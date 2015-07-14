@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %} Register {% endblock %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+
+<div class="page-header">
+  <h1>{% if client %} Welcome back Mr. {{ client.last_name }}{% else %}Hello, Stranger{% endif %}!</h1>
+</div>
+{% if client %}
+<h2>Post</h2>
+{{ wtf.quick_form(form) }}
+{% if posts %}
+  {% for post in posts %}
+    <br/>
+    <h3> {{post.render('title')}} </h3>
+    <p> {{ post.render('body')}} </p>
+  {% endfor %}
+{% endif %}
+
+  {% if transactions %}
+  <br/>
+  <h2>Historical Transactions</h2>
+  <table class = 'table'>
+    <tr>
+      <th>ID</th><th>Date</th><th>Trainer ID</th><th>Dollar Amount</th>
+    </tr>
+  {% for transaction in transactions%}
+    <tr>
+      <td>
+        {{transaction.transaction_id}}
+      </td>
+      <td>
+        {{transaction.transaction_date}}
+      </td>
+      <td>
+        {{transaction.trainer_id}}
+      </td>
+      <td>
+        {{transaction.dollar_amount}}
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% else %}
+  <p>Looks like you have no transactions yet.</p>
+  {% endif %}
+{% else %}
+<p> Looks like you're not logged in. </p>
+<p> Head over to the <a href = '/login'>login</a> page to get started.</p>
+{% endif %}
+
+
+
+{% endblock %}
